@@ -1,1 +1,1 @@
-{"framework":null,"outputDirectory":"public","functions":{"api/report.js":{"includeFiles":"private/snapshot.json"}}}
+{"framework":null,"outputDirectory":"public","functions":{"api/*.js":{"maxDuration":60,"includeFiles":"private/snapshot.json"}},"crons":[{"path":"/api/refresh","schedule":"30 13 * * *"}]}
